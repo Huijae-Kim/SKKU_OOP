@@ -1,5 +1,5 @@
 # 2018-1학기 객체지향프로그래밍
-(c) document created by heejae6021@naver.com
+&copy; document created by heejae6021@naver.com
 
 ## 강의내용
 
@@ -12,6 +12,7 @@
 - Pycharm 설치하기
 - windows command 사용하기
 - **test** : Pycharm 설치하기
+- [2주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_02_note.md)
 
 ### 3주차 - 3/20, 3/22
 - 변수
@@ -20,6 +21,7 @@
 - `split`, `strip`, `format`
 - escape characters
 - **test** : slicing, split 등을 이용하여 문자열 다루기
+- [3주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_03_note.md)
 
 ### 4주차 - 3/27, 3/29
 - 3주차 실습 복습
@@ -30,6 +32,7 @@
 - 전역(global) 변수 vs 지역(local) 변수
 - module
 - **test** : moving average(이동평균) 함수 만들기
+- [4주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_04_note.md)
 
 ### 5주차 - 4/3, 4/5
 - 4주차 실습 복습
@@ -39,6 +42,7 @@
 - reference(참조)
 - deep copy vs shallow copy
 - **test** : 1차원 리스트 내 오름차순 함수, 2차원 리스트 내 오름차순 함수, 3차원 리스트 내 분산으로 오름차순 함수 만들기(4x4x4 리스트)
+- [5주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_05_note.md)
   
 ### 6주차 - 4/10, 4/12
 - 5주차 실습 복습
