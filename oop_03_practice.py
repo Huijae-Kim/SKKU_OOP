@@ -1,5 +1,6 @@
 hello = "hello, world! my name is heejae. I am 26 years old."
-
+  
+    
 print hello.split(".")
 print hello.split(".")[1]
 print hello.split(".")[1].strip()
@@ -20,11 +21,11 @@ realNumber = 36
 guessNumber = int(input("what is your guess number?"))
 
 if guessNumber == realNumber:
-	print "equal"
+  print "equal"
 elif guessNumber > realNumber:
-	print "your number is bigger"
+  print "your number is bigger"
 else:
-	print "your number is smaller"
+  print "your number is smaller"
 
 print "done" 
 

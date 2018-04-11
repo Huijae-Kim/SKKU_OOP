@@ -23,16 +23,16 @@ print set((1,2,3,4,3))
 
 a=0
 while a<10:
-	a=a+1
-	print "a="+str(a)
+  a=a+1
+  print "a="+str(a)
 
 b=0
 while True:
-	if b<10:
-		b=b+1
-		print "b="+str(b)
-	else:
-		break
+  if b<10:
+    b=b+1
+    print "b="+str(b)
+  else:
+    break
 
 
 import random
@@ -40,45 +40,45 @@ import random
 
 number = random.randint(0,100)
 while True:
-	guess = int(raw_input("enter your guess integer: "))
-	if guess < number:
-		print "your number is smaller than the number"
-		continue
-	elif guess > number:
-		print "your number is bigger than the number"
-		continue
-	else:
-		print "your number is equal to the number!"
-		break
+  guess = int(raw_input("enter your guess integer: "))
+  if guess < number:
+    print "your number is smaller than the number"
+    continue
+  elif guess > number:
+    print "your number is bigger than the number"
+    continue
+  else:
+    print "your number is equal to the number!"
+    break
 print "game is finished"
 
 
 for i,iv in enumerate("heejae loves josang"):
-	print "id: {} - value: {}".format(i,iv)
-	
+  print "id: {} - value: {}".format(i,iv)
+  
 l_d = [1,2,3,4,5]
 l_e = ["a","b","c","d","e"]
 
 for d,e in zip(l_d,l_e):
-	print "id:{} - value: {}".format(d,e)
-	
+  print "id:{} - value: {}".format(d,e)
+  
 def add(a,b):
-	c=a+b
-	return c
+  c=a+b
+  return c
 
 print add(2,3)
 
 c=100
 def add2(a,b):
-	global c
-	d=a+b+c
-	return d
+  global c
+  d=a+b+c
+  return d
 
 print add2(2,30)
 
 l_heejae = "heejae kim loves sangyeon cho".split(" ")
 for i,iv in enumerate(l_heejae):
-	print "id: "+str(i+1)+", value: "+iv
+  print "id: "+str(i+1)+", value: "+iv
 
 
 input = [1,2,3,4,5]
@@ -86,7 +86,7 @@ input = [1,2,3,4,5]
 print range(len(input))
 
 for i in range(len(input)):
-	print i
-	print input[i]
-	
+  print i
+  print input[i]
+  
 
