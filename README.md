@@ -51,7 +51,7 @@
 - **test** : 
 
 ## etc
-### github에 올리는 법 by sangyeon🙆🏻‍♂️
+### github에 올리는 법 by sangyeon❤️
 ```markdown
 1. stash file 실행
 2. cd OOP
@@ -59,5 +59,5 @@
 4. git status
 5. git commit “commit message”
 6. git push
-7. success ❤️
+7. success👍
 ```
