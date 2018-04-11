@@ -1,5 +1,5 @@
 # 2018-1학기 객체지향프로그래밍
-(c) document created by heejae6021@naver.com
+&copy; document created by heejae6021@naver.com
 
 ## 강의내용
 
