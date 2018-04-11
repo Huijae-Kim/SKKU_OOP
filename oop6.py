@@ -7,7 +7,7 @@
 3차원 : 행렬 간의 분산을 비교하여 정리
 """
 
-print "Sangyeon is babo."
+print "Sangyeon is Genius"
 
 def increase1(input):
 	for i in range(0,4):
