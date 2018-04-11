@@ -11,6 +11,15 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
+## Github 올리는 방법
+
+0. cd OOP
+1. git add *
+2. git status
+3. git commit "COMMIT MESSAGE"
+4. git push
+
+
 # Header 1
 ## Header 2
 ### Header 3
