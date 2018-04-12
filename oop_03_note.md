@@ -98,7 +98,7 @@ g.strip() # “My name is heejae kim.”
 > 의미없는 공백을 잘라내준다(trim). 즉 앞뒤 공백을 지워준다. 
 - null : 공간은 있는데, 공간은 할당되어있는데 어떠한 값도 들어가 있지 않은 것. = None
 - escape characters
-```markdown
+```bash
 \ # 뒤에 오는 것 특이한 거야! 라고 알려주는 signal
 \n # 줄바꿈, 길이 1이다
 \b # backspace
