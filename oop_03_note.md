@@ -15,19 +15,21 @@ Variable :
 - 부동(떠다닌다) 소수점 숫자형(Float) : 소수점이 왔다갔다 할 수 있는 것(=유동소수점); 1.0 , 2.3
 - . 들어가면 무조건 실수!
 - 복소수형 : i를 j로 쓴다; 2+3j
-- Python은 작은 data type을 큰 data type으로 변환한 후 연산 >> 암묵적 캐스팅
+- 암묵적 캐스팅
 ```python
 a = 3.1 # float
 b = 2 # integer
 c = a+b  # 5.1(float)
 ```
-- 기본적으로 프로그래밍은 data type이 같아야지만 연산이 가능했다. >> 명시적 캐스팅
+> Python은 작은 data type을 큰 data type으로 변환한 후 연산.
+- 명시적 캐스팅
 ```python
 a = 3.1
 b = 2
 c = int(a)+b # 5(integer)
 d = a - int(a) # 소수부분, 캐스팅의 또다른 기능
 ```
+> 기본적으로 프로그래밍은 data type이 같아야지만 연산이 가능했다.
 ### 문자열(string)
 - “ ” 안에 들어가면 문자열
 ```python
@@ -75,22 +77,25 @@ f[-3:] # “rld”, 뒤에서 3번째부터 끝까지 가져와라.
 f[:] # “hello, world”, f와 동일, but 깊은 copy 
 f[::-1] # “dlrow ,olleh”, 반대로
 ```
-- .find() : 문자열에서만 가능.
+- .find()
 ```python
 f = “hello, world”
 f.find(“,”) # 5, f라는 문자열에서 ‘,’를 찾아서 첫 index를 알려줘
 f.rfind(“,”) # 5, 오른쪽에서부터 찾아줘
 ```
-- .split() : 구분자를 기준으로 나눠준다.
+> 문자열에서만 가능하다.
+- .split() 
 ```python
 f = “hello, world”
 f.split(“,”) # [‘hello’, ‘ world’], 여기서 ‘,’를 구분자라고 한다.
 ```
-- .strip() / .rstrip() / .lstrip() : 의미없는 공백을 잘라내준다(trim). 즉 앞뒤 공백을 지워준다. 
+> 구분자를 기준으로 나눠준다.
+- .strip() / .rstrip() / .lstrip() 
 ```python
 g = “ My name is heejae kim.”
 g.strip() # “My name is heejae kim.”
 ```
+> 의미없는 공백을 잘라내준다(trim). 즉 앞뒤 공백을 지워준다. 
 - null : 공간은 있는데, 공간은 할당되어있는데 어떠한 값도 들어가 있지 않은 것. = None
 - escape characters
 ```markdown
@@ -100,13 +105,14 @@ g.strip() # “My name is heejae kim.”
 \” # 특수하게 해석하지마
 \\ # 다음에 오는 backslash를 escape character로 해석하지마. 특이한 거 아냐.
 ```
-- 따옴표 3개, 3개 ‘’’ ‘’’ : 주석처리
+- 따옴표 3개, 3개 ‘’’ ‘’’
 ```python
 ‘’’
 따옴표 안에 manual을 이처럼 길게 작성할 수 있다.
 줄바꿈을 해도 문제가 없다.
 ’’’
 ```
+> 문단을 주석처리 할 수 있다.
 - .format()
 ```python
 name = heejae
