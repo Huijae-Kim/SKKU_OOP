@@ -1,4 +1,4 @@
-# 2주차 강의 내용 (미완)
+# 2주차 강의 내용 (완)
 &copy; document created by heejae6021@naver.com
 
 ## windows command 사용하기
@@ -80,5 +80,3 @@ $ python myfirst.py # run python script
 -*- coding: utf-8 -*-
 ```
 > 맨 위에 적어주면 한글 주석 가능
-
-## 변수
