@@ -12,7 +12,7 @@
 - Pycharm 설치하기
 - windows command 사용하기
 - **test** : Pycharm 설치하기
-- [2주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_02_note.md)
+- [2주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_02_note.md)[완]
 
 ### 3주차 - 3/20, 3/22
 - 변수
@@ -21,7 +21,7 @@
 - `split`, `strip`, `format`
 - escape characters
 - **test** : slicing, split 등을 이용하여 문자열 다루기
-- [3주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_03_note.md)
+- [3주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_03_note.md)[완]
 
 ### 4주차 - 3/27, 3/29
 - 3주차 실습 복습
