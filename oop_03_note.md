@@ -93,7 +93,7 @@ g.strip() # “My name is heejae kim.”
 ```
 - null : 공간은 있는데, 공간은 할당되어있는데 어떠한 값도 들어가 있지 않은 것. = None
 - escape characters
-```python
+```markdown
 \ # 뒤에 오는 것 특이한 거야! 라고 알려주는 signal
 \n # 줄바꿈, 길이 1이다
 \b # backspace
