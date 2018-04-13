@@ -49,7 +49,7 @@
 - bubble sort
 - quick sort
 - **test** : 1차원 리스트 내 오름차순 함수, 2차원 내 오름차순 함수(nxn 리스트)
-- [6주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_06_note.md)
+- [6주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_06_note.md) [완]
 
 ## etc
 ### github에 올리는 법 by sangyeon❤️
