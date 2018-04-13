@@ -36,5 +36,5 @@ def bubble_sort(data):
 - bubble sort보다 빠르다.
 - 임의의 pivot을 정한다. 알고리즘 상에서는 가운데, 프로그램 상에서는 첫번째를 pivot으로 잡는다.
 - 오름차순 정렬
-![Image of Quick Sort](https://github.com/heejae6021/OOP/blob/master/images/quicksort.jpg =400x405)
+![Image of Quick Sort](https://github.com/heejae6021/OOP/blob/master/images/quicksort.jpg){: width="400px" height="405px"}
 - quick sort 함수를 만들기 위해서는 재귀함수를 배워야 한다. 다음 시간에~
