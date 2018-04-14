@@ -22,12 +22,12 @@ def bubble_sort(data):
 ```
 ```python
 def bubble_sort(data):
-  mydata = [:]
-  for i in range(len(data)-1):
-    for j in range(i+1, len(data)):
-      if data[i]>data[j]:
-        data[i],data[j]=data[j],data[i]
-  return data
+  mydata = data[:]
+  for i in range(len(mydata)-1):
+    for j in range(i+1, len(mydata)):
+      if mydata[i]>mydata[j]:
+        mydata[i],mydata[j]=mydata[j],mydata[i]
+  return mydata
 ```
 
 ## Quick Sort
