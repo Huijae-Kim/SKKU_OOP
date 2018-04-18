@@ -14,22 +14,22 @@
 
 ```python
 try:
-	data.append(int(el))
+  data.append(int(el))
 except:
-	print "data is not number"
+  print "data is not number"
 
 # 각각 exception 상황을 나눠서 해줄 수 있다.
 except IOException:
-	print "IOException Error"
+  print "IOException Error"
 except ValueException:
-	print "ValueException Error"
+  print "ValueException Error"
 ```
 
 ### `raise Exception`
 - 일부러 Exception을 불러일으키는 것.
 ```python
 if len(a) is not len(b):
-	raise Exception # if len(a) is not len(b) Exception 발생.
+  raise Exception # if len(a) is not len(b) Exception 발생.
 ```
 
 ## `input( )`
@@ -91,7 +91,7 @@ print type(lines) # check data type
 - 즉 instance는 class와의 관계 설명할 때 쓰인다.
 ```python
 class Minion:
-	pass
+  pass
 bob = Minion()
 # bob은 object이다.
 # bob은 Minion이라는 class에 instance이다.
@@ -133,22 +133,23 @@ bob = Minion()
 - 파이썬의 class 안의 method에서는 관례적으로 첫번째 argument에는 self를 적어준다. 호출 시 호출한 객체도 전달되어야 하기 때문이다.
 ```python
 class Car():
-	def __init__(self): # method는 처음에 self가 들어가야 한다. argument가 없는 상태.
-		self.color="black" # __init__(self)는 호출할 때 무조건 실행되는 함수.
+  def __init__(self): # method는 처음에 self가 들어가야 한다. argument가 없는 상태.
+  self.color="black" # __init__(self)는 호출할 때 무조건 실행되는 함수.
 
 # 만약 만들 때 color를 지정하고 싶을 때,
 class Car():
-	# 생성자
-	def __init__(self,color): # 여기서 color는 argument
-		self.color = color # attribute를 정하고 싶으면 self를 앞에 써라.
-		# 앞의 color는 attribute, 뒤에 color는 argument.
+  # 생성자
+  def __init__(self,color): # 여기서 color는 argument
+  self.color = color # attribute를 정하고 싶으면 self를 앞에 써라.
+    # 앞의 color는 attribute, 뒤에 color는 argument.
 
-	# 소멸자, 꼭 안써줘도 된다.
-	def __del__(self):
-		pass
+  # 소멸자, 꼭 안써줘도 된다.
+  def __del__(self):
+    pass
 
-	# 일반 method들도 쓸 수 있다.
-	def run(self):
+  # 일반 method들도 쓸 수 있다.
+  def run(self):
+    pass
 ```
 - class 호출할 때는 instance를 정해준다.
 ```python	
