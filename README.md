@@ -37,8 +37,8 @@
 ### 5주차 - 4/3, 4/5
 - 4주차 실습 복습
 - 서수(1st, 2nd) 함수 만들기
-- reverse 함수 만들기
-- range 함수 만들기
+- `reverse` 함수 만들기
+- `range` 함수 만들기
 - reference(참조)
 - deep copy vs shallow copy
 - **test** : 1차원 리스트 내 오름차순 함수, 2차원 리스트 내 오름차순 함수, 3차원 리스트 내 분산으로 오름차순 함수 만들기(4x4x4 리스트)
@@ -50,6 +50,17 @@
 - quick sort
 - **test** : 1차원 리스트 내 오름차순 함수, 2차원 내 오름차순 함수(nxn 리스트)
 - [6주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_06_note.md) [완]
+
+### 7주차 - 4/17, 4/19
+- 6주차 실습 복습
+- `try:`와 `except:`
+- python version에 따른 `input()`의 차이
+- input file하는 방법
+- `readline()`와 `readlines()`
+- Object-Oriented Programming
+- Class 작성하는 방법
+- **test** : 
+- [7주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_07_note.md) [완]
 
 ## etc
 ### github에 올리는 법 by sangyeon❤️
