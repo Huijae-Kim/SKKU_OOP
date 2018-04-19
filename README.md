@@ -25,13 +25,13 @@
 
 ### 4주차 - 3/27, 3/29
 - 3주차 실습 복습
-- 연산자 
+- 연산자
 - 데이터 형태 : list, tuple, dict 중심
 - loop문 : `for`, `while`, `if`
 - function
 - 전역(global) 변수 vs 지역(local) 변수
 - module
-- **test** : moving average(이동평균) 함수 만들기
+- [**test**](https://github.com/heejae6021/OOP/blob/master/oop_04_test.py) : moving average(이동평균) 함수 만들기
 - [4주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_04_note.md)
 
 ### 5주차 - 4/3, 4/5
@@ -41,14 +41,14 @@
 - `range` 함수 만들기
 - reference(참조)
 - deep copy vs shallow copy
-- **test** : 1차원 리스트 내 오름차순 함수, 2차원 리스트 내 오름차순 함수, 3차원 리스트 내 분산으로 오름차순 함수 만들기(4x4x4 리스트)
+- [**test**](https://github.com/heejae6021/OOP/blob/master/oop_05_test.py) : 1차원 리스트 내 오름차순 함수, 2차원 리스트 내 오름차순 함수, 3차원 리스트 내 분산으로 오름차순 함수 만들기(4x4x4 리스트)
 - [5주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_05_note.md)
-  
+
 ### 6주차 - 4/10, 4/12
 - 5주차 실습 복습
 - bubble sort
 - quick sort
-- **test** : 1차원 리스트 내 오름차순 함수, 2차원 내 오름차순 함수(nxn 리스트)
+- [**test**](https://github.com/heejae6021/OOP/blob/master/oop_06_test.py) : 1차원 리스트 내 오름차순 함수, 2차원 내 오름차순 함수(nxn 리스트)
 - [6주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_06_note.md) [완]
 
 ### 7주차 - 4/17, 4/19
@@ -59,7 +59,7 @@
 - `readline()`와 `readlines()`
 - Object-Oriented Programming
 - Class 작성하는 방법
-- **test** : 
+- [**test**](https://github.com/heejae6021/OOP/blob/master/oop_07_test.py) : 야구 게임 최대한 짧은 코딩으로 만들기(함수, 클래스 사용 안해도 된다.)
 - [7주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_07_note.md) [완]
 
 ## etc
