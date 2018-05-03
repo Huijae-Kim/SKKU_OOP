@@ -77,6 +77,6 @@ $ python myfirst.py # run python script
 > 같은 방식으로 fixme도 todo와 같이 확인 가능
 3. 한글 주석
 ```python
--*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 ```
 > 맨 위에 적어주면 한글 주석 가능
