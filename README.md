@@ -62,6 +62,23 @@
 - [**test**](https://github.com/heejae6021/OOP/blob/master/oop_07_test.py) : 야구 게임 최대한 짧은 코딩으로 만들기(함수, 클래스 사용 안해도 된다.)
 - [7주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_07_note.md) [완]
 
+### 8주차 - 4/24, 4/26
+- 중간고사 기간
+- [**test**](https://github.com/heejae6021/OOP/blob/master/oop_08_test.py) : 전화번호부 만들기
+
+### 9주차 - 5/1, 5/3
+- 5/1 : 8주차 실습 부정행위 찾기 위한 재실습
+- 5/3 : 팀프로젝트 발표
+
+### 10주차 - 5/8, 5/10
+- 5/8 : 예비군 훈련 휴강
+- 5/10 : 앞으로 실습 없을 예정. 실습시간에 팀프로젝트 진행
+
+### 11주차 - 5/15, 5/17
+- package 까는 법
+- GUI 시작
+- [11주차 강의노트](https://github.com/heejae6021/OOP/blob/master/oop_11_note.md) [완]
+
 ## etc
 ### github에 올리는 법 by sangyeon❤️
 ```markdown
